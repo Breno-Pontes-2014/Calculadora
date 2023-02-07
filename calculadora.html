@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="configurações/style.css">
+    <script src="configurações/javascript.js"></script>
+</head>
+<body>
+    <div class="fundo">
+        <h1>Calculadora</h1>
+        <div class="calculadora">
+            <p id="resultado">
+                
+            </p>
+            <table>
+                <tr>
+                    <td><button class="botão" onclick="limpar()">C</button></td>
+                    <td><button class="botão" onclick="apagar1número()"><</button></td>
+                    <td><button class="botão" onclick="mostrar('/')">/</button></td>
+                    <td><button class="botão" onclick="mostrar('X')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botão" onclick="mostrar('7')">7</button></td>
+                    <td><button class="botão" onclick="mostrar('8')">8</button></td>
+                    <td><button class="botão" onclick="mostrar('9')">9</button></td>
+                    <td><button class="botão" onclick="mostrar('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botão" onclick="mostrar('4')">4</button></td>
+                    <td><button class="botão" onclick="mostrar('5')">5</button></td>
+                    <td><button class="botão" onclick="mostrar('6')">6</button></td>
+                    <td><button class="botão" onclick="mostrar('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botão" onclick="mostrar('1')">1</button></td>
+                    <td><button class="botão" onclick="mostrar('2')">2</button></td>
+                    <td><button class="botão" onclick="mostrar('3')">3</button></td>
+                    <td rowspan="2" style="height:106px;"><button onclick="calcular()">=</button></td>
+                </tr>
+                <tr>
+                    <td><button colspan="2" style="width:106px;" onclick="mostrar('0')">0</button></td>
+                    <td><button class="botão" onclick="mostrar(',')">,</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
