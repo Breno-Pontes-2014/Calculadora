@@ -33,7 +33,8 @@
 .botao:hover{
     background-color: black;
 }
-#resultado{                                                         width: 207px;
+#resultado{                                                        
+    width: 207px;
     background-color: white;
     height: 30px;
     margin: 5px;
